@@ -1,0 +1,135 @@
+[8:17 PM, 12/30/2024] Somesh Classmate: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My Show</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 4rem;
+        }
+
+        .movies {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .movie {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie h3 {
+            margin: 10px 0;
+        }
+
+        .movie button {
+            background-color: #f04;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .movie button:hover {
+            background-color: #c03;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book My Show</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Movies</a>
+        <a href="#">Events</a>
+        <a href="#">Contact Us</a>
+    </nav>
+
+    <div class="banner">
+        <p>Experience the Magic of Movies!</p>
+    </div>
+
+    <section class="movies">
+        <div class="movie">
+            <img src="max.jpeg" alt="Movie 1">
+            <h3>MAX</h3>
+            <button>Book Now</button>
+        </div>
+        <div class="movie">
+            <img src="ui.jpeg" alt="Movie 2">
+            <h3>UI</h3>
+            <button>Book Now</button>
+        </div>
+        <div class="movie">
+            <img src="toxic.jpeg" alt="Movie 3">
+            <h3>TOXIC</h3>
+            <button>Book Now</button>
+        </div>
+        <div class="movie">
+            <img src="devil.jpeg" alt="Movie 4">
+            <h3>DEVIL</h3>
+            <button>Book Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Book My Show. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
